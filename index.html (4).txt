@@ -119,7 +119,7 @@ h1 span{
   <div class="content">
 
     <!-- Apni photo -->
-    <img src="raju-bhai.jpg" class="photo">
+    <img src="logo.jpg" class="photo">
 
     <div class="tag">🏏 CRICKET COMMUNITY</div>
 
@@ -129,7 +129,7 @@ h1 span{
       Cricket Updates • Match News • Daily Updates
     </p>
 
-    <a href="https://t.me/YourTelegramLink"
+    <a href="https://t.me/+ejECO8EBpbkyZDU1"
        target="_blank"
        class="btn">
        ✈️ JOIN TELEGRAM
