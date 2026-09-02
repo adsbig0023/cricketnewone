@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raju Bhai Mumbai</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#050505;
+  color:white;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:25px;
+  background:
+    linear-gradient(180deg,rgba(0,0,0,.35),#050505),
+    url("cricket-bg.jpg") center/cover;
+}
+
+.content{
+  width:100%;
+  max-width:850px;
+  text-align:center;
+  padding:45px 25px;
+  border-radius:30px;
+  background:rgba(0,0,0,.72);
+  border:1px solid #f6b800;
+  box-shadow:0 0 45px rgba(246,184,0,.18);
+}
+
+.photo{
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  border-radius:50%;
+  border:5px solid #f6b800;
+  margin-bottom:20px;
+}
+
+.tag{
+  color:#f6b800;
+  font-weight:bold;
+  letter-spacing:2px;
+  font-size:14px;
+  margin-bottom:12px;
+}
+
+h1{
+  font-size:48px;
+  margin-bottom:15px;
+}
+
+h1 span{
+  color:#f6b800;
+}
+
+.subtitle{
+  font-size:19px;
+  color:#ddd;
+  margin-bottom:30px;
+}
+
+.btn{
+  display:inline-block;
+  text-decoration:none;
+  background:#229ed9;
+  color:white;
+  padding:17px 45px;
+  border-radius:12px;
+  font-size:20px;
+  font-weight:bold;
+  box-shadow:0 8px 25px rgba(34,158,217,.35);
+}
+
+.info{
+  margin-top:28px;
+  color:#aaa;
+  font-size:13px;
+}
+
+@media(max-width:600px){
+  .content{
+    padding:35px 18px;
+  }
+
+  h1{
+    font-size:34px;
+  }
+
+  .photo{
+    width:125px;
+    height:125px;
+  }
+
+  .subtitle{
+    font-size:16px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+  <div class="content">
+
+    <!-- Apni photo -->
+    <img src="raju-bhai.jpg" class="photo">
+
+    <div class="tag">🏏 CRICKET COMMUNITY</div>
+
+    <h1>RAJU BHAI <span>MUMBAI</span></h1>
+
+    <p class="subtitle">
+      Cricket Updates • Match News • Daily Updates
+    </p>
+
+    <a href="https://t.me/YourTelegramLink"
+       target="_blank"
+       class="btn">
+       ✈️ JOIN TELEGRAM
+    </a>
+
+    <p class="info">
+      Cricket information for informational purposes only.
+    </p>
+
+  </div>
+
+</section>
+
+</body>
+</html>
